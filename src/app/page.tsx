@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 
-const BASE_URL = 'http://127.0.0.1:8002';
+const BASE_URL = 'https://library-system-tawny.vercel.app/';
 
 export default function Home() {
   const [outputs, setOutputs] = useState<Record<string, string>>({});
